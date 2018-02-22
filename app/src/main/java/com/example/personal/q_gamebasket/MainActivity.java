@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ulang2 = (TextView) findViewById(R.id.id_isib);
     }
 
+//    tombol reset
     public void reset(View view) {
         awal = 0;
         ulang.setText(Integer.toString(awal));
